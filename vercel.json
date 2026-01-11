@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "truthlink_app.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "truthlink_app.py" }
+  ]
+}
